@@ -1,9 +1,22 @@
 nav{
     display: flex;
+    justify-content: space-between;
+    padding: 20px 32px 20px 32px;
 
+    background-color: var(--surface-color);
 }
 
 nav ul{
     list-style: none;
     display: flex;
+    gap: 16px;
+    align-items: center; 
+    font: var(--text);
+    color: var(--text-color-secondary);
 }
+
+nav ul li:last-child img{
+    height: 40px;
+    width: 40px;
+}
+
